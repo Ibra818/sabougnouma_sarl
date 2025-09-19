@@ -1,0 +1,479 @@
+/* Partners Section - Modern 2024 Design */
+.partners {
+  background: var(--gradient-mesh), var(--surface-variant);
+  position: relative;
+  overflow: hidden;
+}
+
+.partners::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(26, 75, 62, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(201, 148, 26, 0.05) 0%, transparent 50%);
+  z-index: -1;
+}
+
+/* Section Header */
+.section-header {
+  margin-bottom: var(--spacing-4xl);
+  position: relative;
+}
+
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+  color: var(--primary-color);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.badge-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-heading);
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--gray-600);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Partners Categories */
+.strategic-partners,
+.future-partners {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.partners-category-title {
+  font-size: 1.75rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-md);
+  font-family: var(--font-heading);
+  text-align: center;
+  position: relative;
+}
+
+.partners-category-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--gradient-sunset);
+  border-radius: var(--radius-full);
+}
+
+.partners-category-subtitle {
+  text-align: center;
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-2xl);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Partner Cards */
+.partner-card-modern {
+  /* background: var(--surface); */
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-2xl);
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  left: -0;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+ /* .partner-card-modern::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: var(--gradient-mesh);
+   opacity: 0;
+   transition: opacity 0.4s ease;
+ } */
+
+.partner-card-modern:hover {
+  transform: translateY(-8px);
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-colored);
+}
+
+/* .partner-card-modern:hover::before {
+  opacity: 1;
+} */
+
+/* Partner Logo */
+.partner-logo-placeholder {
+  width: 140px;
+  height: 100px;
+  background: var(--gray-50);
+  border: 2px dashed var(--gray-300);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--spacing-lg);
+  transition: var(--transition-normal);
+  position: relative;
+  z-index: 1;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--primary-color);
+}
+
+.logo-content img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.placeholder-icon {
+  width: 48px;
+  height: 48px;
+  opacity: 0.8;
+  transition: var(--transition-normal);
+}
+
+.partner-abbr {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  letter-spacing: 1px;
+}
+
+.partner-card-modern:hover .placeholder-icon {
+  transform: scale(1.1);
+  color: var(--secondary-color);
+}
+
+.partner-card-modern:hover .partner-logo-placeholder {
+  border-color: var(--primary-color);
+  background: var(--primary-50);
+}
+
+.partner-card-modern:hover .logo-content {
+  color: var(--primary-color);
+}
+
+/* Partner Info */
+.partner-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.partner-info h4 {
+  font-size: 1.5rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-sm);
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.partner-full-name {
+  color: var(--gray-600);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Partner Tags */
+.partner-tags {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-lg);
+}
+
+.tag {
+  background: var(--primary-100);
+  color: var(--primary-color);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Partner CTA */
+.partner-cta {
+  margin-top: auto;
+}
+
+.btn-sm {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: 0.875rem;
+}
+
+.btn-icon {
+  width: 14px;
+  height: 14px;
+  margin-left: var(--spacing-xs);
+}
+
+/* Placeholder Partners */
+.partner-placeholder {
+  border-style: dashed;
+  border-color: var(--gray-300);
+  background: var(--gray-50);
+}
+
+.partner-placeholder:hover {
+  border-color: var(--secondary-color);
+  background: var(--surface);
+}
+
+.partner-placeholder .partner-logo-placeholder {
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+  background-opacity: 0.1;
+}
+
+.partner-placeholder .logo-content {
+  color: var(--secondary-color);
+}
+
+/* Partnership Benefits */
+.partnership-benefits {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.benefits-container {
+  padding: var(--spacing-3xl);
+  margin: var(--spacing-2xl) 0;
+}
+
+.benefits-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.benefits-header h3 {
+  font-size: 2rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-md);
+  font-family: var(--font-heading);
+}
+
+.benefits-header p {
+  color: var(--gray-600);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-2xl);
+}
+
+.benefit-item {
+  text-align: center;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-xl);
+  transition: var(--transition-normal);
+  position: relative;
+  z-index: 1;
+}
+
+.benefit-item:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--gradient-primary);
+  color: var(--white);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--spacing-md);
+  box-shadow: var(--shadow-colored);
+}
+
+.benefit-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.benefit-item h4 {
+  font-size: 1.25rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+.benefit-item p {
+  color: var(--gray-600);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Partners CTA */
+.partners-cta {
+  background: var(--gradient-primary);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-3xl) var(--spacing-2xl);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.partners-cta::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: float 8s ease-in-out infinite;
+}
+
+.partners-cta h3 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: var(--spacing-md);
+  color: var(--white);
+  position: relative;
+  z-index: 1;
+}
+
+.partners-cta p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  margin-bottom: var(--spacing-2xl);
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .partners-grid-modern {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .benefits-container {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .partners-cta {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .partners-category-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-card-modern {
+    padding: var(--spacing-xl);
+  }
+
+  .partner-logo-placeholder {
+    width: 120px;
+    height: 80px;
+  }
+
+  .benefit-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .benefit-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Animation Enhancements */
+.partner-card-modern {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.partner-card-modern:nth-child(1) { animation-delay: 0.1s; }
+.partner-card-modern:nth-child(2) { animation-delay: 0.2s; }
+.partner-card-modern:nth-child(3) { animation-delay: 0.3s; }
+.partner-card-modern:nth-child(4) { animation-delay: 0.4s; }
+.partner-card-modern:nth-child(5) { animation-delay: 0.5s; }
+.partner-card-modern:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

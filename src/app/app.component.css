@@ -1,0 +1,11 @@
+/* App component styles */
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling for navigation */
+html {
+  scroll-behavior: smooth;
+}
+

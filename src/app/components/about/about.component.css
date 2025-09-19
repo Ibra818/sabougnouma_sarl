@@ -1,0 +1,492 @@
+/* About Section */
+.about {
+  background: var(--light-gray);
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gray-300), transparent);
+}
+
+/* Section Header */
+.section-header {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background: var(--white);
+  color: var(--primary-color);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+}
+
+.badge-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-lg);
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--gray-600);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* About Content */
+.about-content {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.about-text {
+  padding-right: var(--spacing-xl);
+}
+
+.company-info h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-heading);
+}
+
+.company-details {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-normal);
+}
+
+.detail-item:hover {
+  transform: translateX(8px);
+  box-shadow: var(--shadow-md);
+}
+
+.detail-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--secondary-color);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.detail-item span {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+}
+
+/* Slogan Box */
+.slogan-box {
+  background: var(--gradient-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.slogan-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: float 6s ease-in-out infinite;
+}
+
+.slogan-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.8;
+}
+
+.slogan-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.slogan {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* About Visual - Modern Design */
+.about-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-image-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+.main-about-image {
+  position: relative;
+  aspect-ratio: 16/10;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-colored);
+  margin-top: 30px;
+}
+
+.main-about-image img {
+  width: 100%;
+  /* height: 70%; */
+  object-fit: cover;
+  transition: var(--transition-slow);
+}
+
+.main-about-image:hover img {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: var(--white);
+  padding: var(--spacing-xl);
+  transform: translateY(100%);
+  transition: var(--transition-normal);
+}
+
+.main-about-image:hover .image-overlay {
+  transform: translateY(0);
+}
+
+.image-overlay h4 {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--white);
+}
+
+.image-overlay p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.about-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.about-gallery .gallery-item {
+  aspect-ratio: 4/3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition-normal);
+}
+
+.about-gallery .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-normal);
+}
+
+.about-gallery .gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.about-gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Mission, Vision, Values Section */
+.mvv-section {
+  margin-bottom: var(--spacing-4xl);
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.mvv-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  height: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.mvv-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+  transform: translateX(-100%);
+  transition: var(--transition-normal);
+}
+
+.mvv-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.mvv-card:hover::before {
+  transform: translateX(0);
+}
+
+.mvv-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto var(--spacing-lg);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mvv-icon.mission {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #1976d2;
+}
+
+.mvv-icon.vision {
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+  color: #7b1fa2;
+}
+
+.mvv-icon.values {
+  background: linear-gradient(135deg, #e8f5e8, #c8e6c9);
+  color: #388e3c;
+}
+
+.mvv-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.mvv-card h3 {
+  font-size: 1.5rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-md);
+  font-family: var(--font-heading);
+}
+
+.mvv-card p {
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.values-list li {
+  padding: var(--spacing-xs) 0;
+  color: var(--gray-600);
+  position: relative;
+  padding-left: var(--spacing-lg);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: .9em;
+  /* color: #388e3c; */
+}
+
+.values-list li p{
+  font-size: .9em;
+  /* color: #388e3c; */
+}
+
+.values-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Partnerships Section */
+.partnerships-section {
+  background: var(--white);
+  border-radius: var(--radius-2xl);
+  padding: var(--spacing-2xl);
+  box-shadow: var(--shadow-md);
+}
+
+.partnerships-section .section-header {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.partnerships-section h3 {
+  font-size: 1.75rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-md);
+}
+
+.partnerships-section p {
+  color: var(--gray-600);
+  margin-bottom: 0;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.partner-card {
+  background: var(--light-gray);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  text-align: center;
+  transition: var(--transition-normal);
+  border: 2px solid transparent;
+}
+
+.partner-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+  background: var(--white);
+  box-shadow: var(--shadow-lg);
+}
+
+.partner-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto var(--spacing-md);
+  color: var(--primary-color);
+  background: var(--white);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.partner-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.partner-card h4 {
+  font-size: 1.25rem;
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+.partner-card p {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .about-text {
+    padding-right: 0;
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .mvv-section .row {
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .about-content {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .mvv-section {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .mvv-card {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .partnerships-section {
+    padding: var(--spacing-xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .company-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .slogan {
+    font-size: 1.25rem;
+  }
+
+  .mvv-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mvv-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+}
