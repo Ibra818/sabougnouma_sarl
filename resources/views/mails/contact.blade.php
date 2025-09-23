@@ -12,17 +12,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #588855ff;
     }
     #blockpage{
         width: 80%;
         height: 100%;
-        background-color: #588855ff;
         border-radius: 10px ;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0 0 30px 0;
         font-family: sans-serif;
+        color: white;
     }
     h2{
         color: white;

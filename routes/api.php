@@ -9,7 +9,7 @@
 
     Route::post('/contact', function(Request $request){
         // return response() -> json($request);
-        $email = 'sabougnouma@gmail.com';
+        $email = 'ibrahima3.com3@gmail.com';
 
         Mail::send('mails.contact', [
             'name'   => $request-> name,
