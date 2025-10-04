@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="eventSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9370DB;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="chandelierGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#eventSkyGradient)"/>
+  
+  <!-- Elegant event hall -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="600" height="350" fill="#F5F5DC" rx="15"/>
+    
+    <!-- Hall ceiling -->
+    <rect x="0" y="0" width="600" height="50" fill="#D3D3D3" rx="15"/>
+    
+    <!-- Elegant chandeliers -->
+    <g transform="translate(150, 30)">
+      <g fill="url(#chandelierGradient)">
+        <circle cx="0" cy="0" r="12"/>
+        <rect x="-1" y="-12" width="2" height="24"/>
+        <rect x="-12" y="-1" width="24" height="2"/>
+        <!-- Candles -->
+        <rect x="-8" y="-10" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="6" y="-10" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="-1" y="-15" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="-1" y="5" width="2" height="15" fill="#FFFFFF"/>
+        <!-- Flames -->
+        <ellipse cx="-7" cy="-12" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="7" cy="-12" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="0" cy="-17" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="0" cy="3" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+      </g>
+    </g>
+    
+    <g transform="translate(450, 30)">
+      <g fill="url(#chandelierGradient)">
+        <circle cx="0" cy="0" r="12"/>
+        <rect x="-1" y="-12" width="2" height="24"/>
+        <rect x="-12" y="-1" width="24" height="2"/>
+        <!-- Candles -->
+        <rect x="-8" y="-10" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="6" y="-10" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="-1" y="-15" width="2" height="15" fill="#FFFFFF"/>
+        <rect x="-1" y="5" width="2" height="15" fill="#FFFFFF"/>
+        <!-- Flames -->
+        <ellipse cx="-7" cy="-12" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="7" cy="-12" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="0" cy="-17" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+        <ellipse cx="0" cy="3" rx="1" ry="3" fill="#FF4500" opacity="0.8"/>
+      </g>
+    </g>
+    
+    <!-- Elegant stage -->
+    <g transform="translate(150, 250)">
+      <rect x="0" y="0" width="300" height="80" fill="#8B4513" rx="10"/>
+      <rect x="10" y="10" width="280" height="60" fill="#A0522D" rx="5"/>
+      
+      <!-- Stage backdrop -->
+      <rect x="20" y="20" width="260" height="40" fill="#4B0082" rx="3"/>
+      <text x="150" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">SABOU-EVENT</text>
+    </g>
+    
+    <!-- Elegant tables -->
+    <g transform="translate(100, 350)">
+      <!-- Table 1 -->
+      <rect x="0" y="0" width="80" height="30" fill="#8B4513" rx="5"/>
+      <rect x="10" y="-20" width="60" height="15" fill="#FFFFFF" rx="3"/>
+      
+      <!-- Table centerpiece -->
+      <g transform="translate(40, -15)">
+        <ellipse cx="0" cy="0" rx="15" ry="8" fill="#C0C0C0"/>
+        <g fill="#FF69B4">
+          <ellipse cx="-5" cy="-3" rx="2" ry="4"/>
+          <ellipse cx="5" cy="-3" rx="2" ry="4"/>
+          <ellipse cx="0" cy="-5" rx="2" ry="4"/>
+        </g>
+      </g>
+    </g>
+    
+    <g transform="translate(520, 350)">
+      <!-- Table 2 -->
+      <rect x="0" y="0" width="80" height="30" fill="#8B4513" rx="5"/>
+      <rect x="10" y="-20" width="60" height="15" fill="#FFFFFF" rx="3"/>
+      
+      <!-- Table centerpiece -->
+      <g transform="translate(40, -15)">
+        <ellipse cx="0" cy="0" rx="15" ry="8" fill="#C0C0C0"/>
+        <g fill="#FFB6C1">
+          <ellipse cx="-5" cy="-3" rx="2" ry="4"/>
+          <ellipse cx="5" cy="-3" rx="2" ry="4"/>
+          <ellipse cx="0" cy="-5" rx="2" ry="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Elegant guests -->
+  <g transform="translate(200, 450)">
+    <!-- Guest 1 -->
+    <circle cx="0" cy="0" r="12" fill="#DEB887"/>
+    <rect x="-8" y="12" width="16" height="20" fill="#4169E1" rx="2"/>
+    <rect x="-6" y="32" width="6" height="10" fill="#000080"/>
+    <rect x="0" y="32" width="6" height="10" fill="#000080"/>
+  </g>
+  
+  <g transform="translate(280, 450)">
+    <!-- Guest 2 -->
+    <circle cx="0" cy="0" r="12" fill="#DEB887"/>
+    <rect x="-8" y="12" width="16" height="20" fill="#9370DB" rx="2"/>
+    <rect x="-6" y="32" width="6" height="10" fill="#4B0082"/>
+    <rect x="0" y="32" width="6" height="10" fill="#4B0082"/>
+  </g>
+  
+  <g transform="translate(360, 450)">
+    <!-- Guest 3 -->
+    <circle cx="0" cy="0" r="12" fill="#DEB887"/>
+    <rect x="-8" y="12" width="16" height="20" fill="#DC143C" rx="2"/>
+    <rect x="-6" y="32" width="6" height="10" fill="#8B0000"/>
+    <rect x="0" y="32" width="6" height="10" fill="#8B0000"/>
+  </g>
+  
+  <g transform="translate(440, 450)">
+    <!-- Guest 4 -->
+    <circle cx="0" cy="0" r="12" fill="#DEB887"/>
+    <rect x="-8" y="12" width="16" height="20" fill="#228B22" rx="2"/>
+    <rect x="-6" y="32" width="6" height="10" fill="#006400"/>
+    <rect x="0" y="32" width="6" height="10" fill="#006400"/>
+  </g>
+  
+  <g transform="translate(520, 450)">
+    <!-- Guest 5 -->
+    <circle cx="0" cy="0" r="12" fill="#DEB887"/>
+    <rect x="-8" y="12" width="16" height="20" fill="#FFD700" rx="2"/>
+    <rect x="-6" y="32" width="6" height="10" fill="#FFA500"/>
+    <rect x="0" y="32" width="6" height="10" fill="#FFA500"/>
+  </g>
+  
+  <!-- Event coordinator -->
+  <g transform="translate(650, 400)">
+    <!-- Coordinator figure -->
+    <circle cx="0" cy="0" r="15" fill="#DEB887"/>
+    <rect x="-10" y="15" width="20" height="25" fill="#000000" rx="2"/>
+    <rect x="-8" y="17" width="16" height="21" fill="#FFFFFF" rx="1"/>
+    <rect x="-2" y="17" width="4" height="20" fill="#FF0000"/>
+    <rect x="-6" y="40" width="6" height="12" fill="#000080"/>
+    <rect x="0" y="40" width="6" height="12" fill="#000080"/>
+    <rect x="-4" y="52" width="3" height="5" fill="#000000"/>
+    <rect x="0" y="52" width="3" height="5" fill="#000000"/>
+    
+    <!-- Clipboard -->
+    <rect x="20" y="10" width="15" height="20" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+    <rect x="22" y="12" width="11" height="16" fill="#F8F8FF"/>
+    <rect x="23" y="13" width="9" height="1" fill="#000000"/>
+    <rect x="23" y="15" width="9" height="1" fill="#000000"/>
+    <rect x="23" y="17" width="9" height="1" fill="#000000"/>
+  </g>
+  
+  <!-- Success indicators -->
+  <g transform="translate(100, 80)">
+    <!-- Success badge -->
+    <circle cx="0" cy="0" r="25" fill="#228B22" stroke="#006400" stroke-width="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">✓</text>
+  </g>
+  
+  <g transform="translate(200, 80)">
+    <!-- Quality badge -->
+    <circle cx="0" cy="0" r="25" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000000">QUAL</text>
+  </g>
+  
+  <g transform="translate(300, 80)">
+    <!-- Excellence badge -->
+    <circle cx="0" cy="0" r="25" fill="#4169E1" stroke="#000080" stroke-width="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">EXCELL</text>
+  </g>
+  
+  <!-- Event title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4B0082">GALA D'ENTREPRISE - 500 INVITÉS</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666666">Une décoration d'exception par SABOU-EVENT</text>
+  
+  <!-- Ground -->
+  <rect x="0" y="550" width="800" height="50" fill="#90EE90"/>
+  
+  <!-- Elegant carpet -->
+  <rect x="150" y="550" width="500" height="50" fill="#8B4513" opacity="0.8"/>
+</svg>

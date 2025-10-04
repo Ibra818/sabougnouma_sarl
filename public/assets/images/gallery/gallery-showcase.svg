@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="galleryGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E9ECEF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#galleryGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2F2F2F">GALERIE DE RÉALISATIONS</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666666">Nos plus belles réussites en images</text>
+  
+  <!-- Gallery grid -->
+  <!-- Row 1 -->
+  <!-- Cleaning showcase -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="150" height="100" fill="#4169E1" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#87CEEB" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">NETTOYAGE</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Immeuble Premium</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Standards Internationaux</text>
+  </g>
+  
+  <!-- Event showcase -->
+  <g transform="translate(220, 100)">
+    <rect x="0" y="0" width="150" height="100" fill="#9370DB" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#DDA0DD" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">ÉVÉNEMENT</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Mariage de Prestige</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">500 Invités</text>
+  </g>
+  
+  <!-- Food showcase -->
+  <g transform="translate(390, 100)">
+    <rect x="0" y="0" width="150" height="100" fill="#FF8C00" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#FFA500" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">RESTAURATION</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Buffet Gastronomique</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Service Premium</text>
+  </g>
+  
+  <!-- Agro showcase -->
+  <g transform="translate(560, 100)">
+    <rect x="0" y="0" width="150" height="100" fill="#228B22" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#32CD32" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">AGROBUSINESS</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Programme FEBOV</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Élevage Durable</text>
+  </g>
+  
+  <!-- Row 2 -->
+  <!-- Academy showcase -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#FFD700" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#FFFF99" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">FORMATION</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#000000">Leadership & Management</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#000000">50 Participants</text>
+  </g>
+  
+  <!-- Corporate showcase -->
+  <g transform="translate(220, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#DC143C" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#FF6347" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">ENTREPRISE</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Services Intégrés</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Solution Complète</text>
+  </g>
+  
+  <!-- Institution showcase -->
+  <g transform="translate(390, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#8B4513" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#A0522D" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">INSTITUTION</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Ministère</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Accompagnement</text>
+  </g>
+  
+  <!-- International showcase -->
+  <g transform="translate(560, 220)">
+    <rect x="0" y="0" width="150" height="100" fill="#4B0082" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#9370DB" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">INTERNATIONAL</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Ambassades</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">ONU, GIZ</text>
+  </g>
+  
+  <!-- Row 3 -->
+  <!-- Quality showcase -->
+  <g transform="translate(50, 340)">
+    <rect x="0" y="0" width="150" height="100" fill="#20B2AA" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#48D1CC" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">QUALITÉ</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Certification ISO</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Standards Premium</text>
+  </g>
+  
+  <!-- Innovation showcase -->
+  <g transform="translate(220, 340)">
+    <rect x="0" y="0" width="150" height="100" fill="#FF1493" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#FF69B4" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">INNOVATION</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Technologies</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Digital & IA</text>
+  </g>
+  
+  <!-- Sustainability showcase -->
+  <g transform="translate(390, 340)">
+    <rect x="0" y="0" width="150" height="100" fill="#32CD32" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#90EE90" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">DURABILITÉ</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Écologique</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Responsable</text>
+  </g>
+  
+  <!-- Excellence showcase -->
+  <g transform="translate(560, 340)">
+    <rect x="0" y="0" width="150" height="100" fill="#FF4500" rx="10"/>
+    <rect x="10" y="10" width="130" height="80" fill="#FF6347" rx="5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">EXCELLENCE</text>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Sabou-Gnouma</text>
+    <text x="75" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">Depuis 2020</text>
+  </g>
+  
+  <!-- Statistics -->
+  <g transform="translate(400, 470)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F2F2F">NOS RÉALISATIONS EN CHIFFRES</text>
+  </g>
+  
+  <g transform="translate(150, 500)">
+    <circle cx="0" cy="0" r="25" fill="#4169E1"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">500+</text>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Projets Réalisés</text>
+  </g>
+  
+  <g transform="translate(350, 500)">
+    <circle cx="0" cy="0" r="25" fill="#228B22"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">98%</text>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Satisfaction Client</text>
+  </g>
+  
+  <g transform="translate(550, 500)">
+    <circle cx="0" cy="0" r="25" fill="#FFD700"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000">24h</text>
+    <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Délai de Réponse</text>
+  </g>
+</svg>

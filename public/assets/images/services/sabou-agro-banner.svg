@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="agroSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="1920" height="1080" fill="url(#agroSkyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="1700" cy="150" r="100" fill="url(#sunGradient)" opacity="0.9"/>
+  
+  <!-- Sun rays -->
+  <g fill="#FFD700" opacity="0.6">
+    <path d="M1650,50 L1655,45 L1650,40 L1655,45 Z"/>
+    <path d="M1700,50 L1705,45 L1700,40 L1695,45 Z"/>
+    <path d="M1750,50 L1755,45 L1750,40 L1745,45 Z"/>
+    <path d="M1800,100 L1805,95 L1800,90 L1795,95 Z"/>
+    <path d="M1800,150 L1805,145 L1800,140 L1795,145 Z"/>
+    <path d="M1800,200 L1805,195 L1800,190 L1795,195 Z"/>
+    <path d="M1750,250 L1755,245 L1750,240 L1745,245 Z"/>
+    <path d="M1700,250 L1705,245 L1700,240 L1695,245 Z"/>
+    <path d="M1650,250 L1655,245 L1650,240 L1645,245 Z"/>
+    <path d="M1600,200 L1605,195 L1600,190 L1595,195 Z"/>
+    <path d="M1600,150 L1605,145 L1600,140 L1595,145 Z"/>
+    <path d="M1600,100 L1605,95 L1600,90 L1595,95 Z"/>
+  </g>
+  
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="300" cy="150" rx="80" ry="30"/>
+    <ellipse cx="330" cy="140" rx="60" ry="25"/>
+    <ellipse cx="320" cy="130" rx="70" ry="35"/>
+    
+    <ellipse cx="600" cy="200" rx="100" ry="40"/>
+    <ellipse cx="640" cy="190" rx="80" ry="35"/>
+    <ellipse cx="620" cy="180" rx="90" ry="45"/>
+    
+    <ellipse cx="1200" cy="120" rx="90" ry="35"/>
+    <ellipse cx="1230" cy="110" rx="70" ry="30"/>
+    <ellipse cx="1220" cy="100" rx="80" ry="40"/>
+  </g>
+  
+  <!-- Agricultural fields -->
+  <g transform="translate(0, 400)">
+    <!-- Field 1 - Wheat -->
+    <rect x="0" y="0" width="400" height="300" fill="url(#fieldGradient)"/>
+    <!-- Wheat stalks -->
+    <g fill="#DAA520" stroke="#B8860B" stroke-width="1">
+      <line x1="50" y1="200" x2="50" y2="50"/>
+      <line x1="100" y1="180" x2="100" y2="30"/>
+      <line x1="150" y1="190" x2="150" y2="40"/>
+      <line x1="200" y1="200" x2="200" y2="50"/>
+      <line x1="250" y1="180" x2="250" y2="30"/>
+      <line x1="300" y1="190" x2="300" y2="40"/>
+      <line x1="350" y1="200" x2="350" y2="50"/>
+    </g>
+    <!-- Wheat heads -->
+    <g fill="#F4A460">
+      <ellipse cx="50" cy="45" rx="8" ry="4"/>
+      <ellipse cx="100" cy="25" rx="8" ry="4"/>
+      <ellipse cx="150" cy="35" rx="8" ry="4"/>
+      <ellipse cx="200" cy="45" rx="8" ry="4"/>
+      <ellipse cx="250" cy="25" rx="8" ry="4"/>
+      <ellipse cx="300" cy="35" rx="8" ry="4"/>
+      <ellipse cx="350" cy="45" rx="8" ry="4"/>
+    </g>
+  </g>
+  
+  <!-- Field 2 - Corn -->
+  <g transform="translate(400, 450)">
+    <rect x="0" y="0" width="400" height="250" fill="#228B22"/>
+    <!-- Corn stalks -->
+    <g fill="#8FBC8F" stroke="#556B2F" stroke-width="2">
+      <line x1="80" y1="200" x2="80" y2="30"/>
+      <line x1="160" y1="180" x2="160" y2="20"/>
+      <line x1="240" y1="190" x2="240" y2="25"/>
+      <line x1="320" y1="200" x2="320" y2="35"/>
+    </g>
+    <!-- Corn cobs -->
+    <g fill="#DEB887">
+      <ellipse cx="80" cy="60" rx="6" ry="15"/>
+      <ellipse cx="160" cy="40" rx="6" ry="15"/>
+      <ellipse cx="240" cy="50" rx="6" ry="15"/>
+      <ellipse cx="320" cy="65" rx="6" ry="15"/>
+    </g>
+    <!-- Corn kernels -->
+    <g fill="#F4A460">
+      <circle cx="80" cy="60" r="2"/>
+      <circle cx="160" cy="40" r="2"/>
+      <circle cx="240" cy="50" r="2"/>
+      <circle cx="320" cy="65" r="2"/>
+    </g>
+  </g>
+  
+  <!-- Field 3 - Vegetables -->
+  <g transform="translate(800, 500)">
+    <rect x="0" y="0" width="400" height="200" fill="#228B22"/>
+    <!-- Vegetable rows -->
+    <g fill="#32CD32">
+      <circle cx="80" cy="100" r="15"/>
+      <circle cx="160" cy="80" r="15"/>
+      <circle cx="240" cy="120" r="15"/>
+      <circle cx="320" cy="90" r="15"/>
+    </g>
+    <!-- Carrots -->
+    <g fill="#FF6347">
+      <ellipse cx="120" cy="110" rx="4" ry="12"/>
+      <ellipse cx="200" cy="90" rx="4" ry="12"/>
+      <ellipse cx="280" cy="130" rx="4" ry="12"/>
+    </g>
+    <!-- Lettuce -->
+    <g fill="#90EE90">
+      <circle cx="100" cy="90" r="8"/>
+      <circle cx="180" cy="70" r="8"/>
+      <circle cx="260" cy="110" r="8"/>
+    </g>
+  </g>
+  
+  <!-- Field 4 - Fruit trees -->
+  <g transform="translate(1200, 400)">
+    <rect x="0" y="0" width="400" height="300" fill="#228B22"/>
+    <!-- Tree trunks -->
+    <g fill="#8B4513">
+      <rect x="100" y="150" width="15" height="100"/>
+      <rect x="200" y="120" width="15" height="130"/>
+      <rect x="300" y="140" width="15" height="110"/>
+    </g>
+    <!-- Tree crowns -->
+    <g fill="#32CD32">
+      <circle cx="107" cy="120" r="40"/>
+      <circle cx="207" cy="90" r="50"/>
+      <circle cx="307" cy="110" r="45"/>
+    </g>
+    <!-- Fruits -->
+    <g fill="#FF6347">
+      <circle cx="107" cy="120" r="6"/>
+      <circle cx="120" cy="110" r="6"/>
+      <circle cx="95" cy="110" r="6"/>
+      <circle cx="207" cy="90" r="6"/>
+      <circle cx="220" cy="80" r="6"/>
+      <circle cx="195" cy="80" r="6"/>
+      <circle cx="307" cy="110" r="6"/>
+      <circle cx="320" cy="100" r="6"/>
+      <circle cx="295" cy="100" r="6"/>
+    </g>
+  </g>
+  
+  <!-- Dairy farm -->
+  <g transform="translate(1600, 500)">
+    <!-- Barn -->
+    <rect x="0" y="100" width="200" height="150" fill="#8B4513"/>
+    <polygon points="0,100 100,50 200,100" fill="#DC143C"/>
+    <!-- Barn door -->
+    <rect x="80" y="150" width="40" height="100" fill="#654321"/>
+    <!-- Windows -->
+    <rect x="30" y="120" width="25" height="25" fill="#87CEEB"/>
+    <rect x="145" y="120" width="25" height="25" fill="#87CEEB"/>
+  </g>
+  
+  <!-- Cows -->
+  <g transform="translate(1650, 600)">
+    <!-- Cow 1 -->
+    <g fill="#FFFFFF" stroke="#000000" stroke-width="1">
+      <ellipse cx="0" cy="0" rx="25" ry="15"/>
+      <ellipse cx="0" cy="-10" rx="15" ry="12"/>
+      <rect x="-8" y="-20" width="6" height="15"/>
+      <rect x="2" y="-20" width="6" height="15"/>
+      <rect x="-15" y="5" width="6" height="20"/>
+      <rect x="9" y="5" width="6" height="20"/>
+      <rect x="-12" y="25" width="6" height="8"/>
+      <rect x="6" y="25" width="6" height="8"/>
+      <rect x="-12" y="33" width="3" height="6"/>
+      <rect x="6" y="33" width="3" height="6"/>
+    </g>
+    <!-- Cow spots -->
+    <g fill="#000000">
+      <ellipse cx="-10" cy="0" rx="6" ry="4"/>
+      <ellipse cx="10" cy="5" rx="5" ry="3"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="3"/>
+    </g>
+  </g>
+  
+  <g transform="translate(1750, 580)">
+    <!-- Cow 2 -->
+    <g fill="#FFFFFF" stroke="#000000" stroke-width="1">
+      <ellipse cx="0" cy="0" rx="25" ry="15"/>
+      <ellipse cx="0" cy="-10" rx="15" ry="12"/>
+      <rect x="-8" y="-20" width="6" height="15"/>
+      <rect x="2" y="-20" width="6" height="15"/>
+      <rect x="-15" y="5" width="6" height="20"/>
+      <rect x="9" y="5" width="6" height="20"/>
+      <rect x="-12" y="25" width="6" height="8"/>
+      <rect x="6" y="25" width="6" height="8"/>
+      <rect x="-12" y="33" width="3" height="6"/>
+      <rect x="6" y="33" width="3" height="6"/>
+    </g>
+    <!-- Cow spots -->
+    <g fill="#000000">
+      <ellipse cx="-8" cy="2" rx="6" ry="4"/>
+      <ellipse cx="8" cy="-3" rx="5" ry="3"/>
+      <ellipse cx="0" cy="8" rx="4" ry="3"/>
+    </g>
+  </g>
+  
+  <!-- Fresh produce display -->
+  <g transform="translate(960, 800)">
+    <!-- Display table -->
+    <rect x="-200" y="-30" width="400" height="30" fill="#8B4513" rx="5"/>
+    <rect x="-180" y="-50" width="360" height="20" fill="#FFFFFF" opacity="0.9" rx="3"/>
+    
+    <!-- Fresh fruits -->
+    <g transform="translate(-150, -40)">
+      <!-- Apples -->
+      <g fill="#FF6347">
+        <circle cx="0" cy="0" r="8"/>
+        <circle cx="20" cy="0" r="8"/>
+        <circle cx="40" cy="0" r="8"/>
+      </g>
+      <!-- Apple stems -->
+      <g fill="#8B4513">
+        <rect x="-1" y="-8" width="2" height="3"/>
+        <rect x="19" y="-8" width="2" height="3"/>
+        <rect x="39" y="-8" width="2" height="3"/>
+      </g>
+    </g>
+    
+    <g transform="translate(-50, -40)">
+      <!-- Bananas -->
+      <g fill="#FFD700">
+        <ellipse cx="0" cy="0" rx="4" ry="12"/>
+        <ellipse cx="8" cy="0" rx="4" ry="12"/>
+        <ellipse cx="16" cy="0" rx="4" ry="12"/>
+        <ellipse cx="24" cy="0" rx="4" ry="12"/>
+      </g>
+    </g>
+    
+    <g transform="translate(50, -40)">
+      <!-- Oranges -->
+      <g fill="#FFA500">
+        <circle cx="0" cy="0" r="7"/>
+        <circle cx="15" cy="0" r="7"/>
+        <circle cx="30" cy="0" r="7"/>
+      </g>
+    </g>
+    
+    <g transform="translate(150, -40)">
+      <!-- Grapes -->
+      <g fill="#9370DB">
+        <circle cx="0" cy="0" r="3"/>
+        <circle cx="5" cy="0" r="3"/>
+        <circle cx="10" cy="0" r="3"/>
+        <circle cx="15" cy="0" r="3"/>
+        <circle cx="20" cy="0" r="3"/>
+        <circle cx="2.5" cy="-4" r="3"/>
+        <circle cx="7.5" cy="-4" r="3"/>
+        <circle cx="12.5" cy="-4" r="3"/>
+        <circle cx="17.5" cy="-4" r="3"/>
+      </g>
+    </g>
+    
+    <!-- Fresh vegetables -->
+    <g transform="translate(-100, -20)">
+      <!-- Carrots -->
+      <g fill="#FF6347">
+        <ellipse cx="0" cy="0" rx="3" ry="8"/>
+        <ellipse cx="15" cy="0" rx="3" ry="8"/>
+        <ellipse cx="30" cy="0" rx="3" ry="8"/>
+      </g>
+      <!-- Carrot tops -->
+      <g fill="#32CD32">
+        <ellipse cx="0" cy="-6" rx="2" ry="4"/>
+        <ellipse cx="15" cy="-6" rx="2" ry="4"/>
+        <ellipse cx="30" cy="-6" rx="2" ry="4"/>
+      </g>
+    </g>
+    
+    <g transform="translate(50, -20)">
+      <!-- Lettuce -->
+      <g fill="#90EE90">
+        <circle cx="0" cy="0" r="6"/>
+        <circle cx="12" cy="0" r="6"/>
+        <circle cx="24" cy="0" r="6"/>
+      </g>
+    </g>
+    
+    <g transform="translate(150, -20)">
+      <!-- Tomatoes -->
+      <g fill="#FF4500">
+        <circle cx="0" cy="0" r="5"/>
+        <circle cx="12" cy="0" r="5"/>
+        <circle cx="24" cy="0" r="5"/>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Modern agricultural equipment -->
+  <g transform="translate(100, 300)">
+    <!-- Tractor -->
+    <g fill="#FF4500">
+      <!-- Tractor body -->
+      <rect x="0" y="0" width="40" height="20" rx="5"/>
+      <!-- Tractor cab -->
+      <rect x="5" y="-15" width="15" height="15" rx="3"/>
+      <!-- Wheels -->
+      <circle cx="10" cy="20" r="8" fill="#000000"/>
+      <circle cx="30" cy="20" r="8" fill="#000000"/>
+      <circle cx="10" cy="20" r="5" fill="#C0C0C0"/>
+      <circle cx="30" cy="20" r="5" fill="#C0C0C0"/>
+    </g>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="950" width="1920" height="130" fill="#90EE90"/>
+  
+  <!-- Farm path -->
+  <rect x="900" y="950" width="120" height="130" fill="#DEB887" opacity="0.8"/>
+</svg>

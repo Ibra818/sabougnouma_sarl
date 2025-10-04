@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="partnersGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E9ECEF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#partnersGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2F2F2F">NOS PARTENAIRES DE CONFIANCE</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666666">Des collaborations qui renforcent notre excellence</text>
+  
+  <!-- Partner 1 - GIZ -->
+  <g transform="translate(100, 120)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0066CC">GIZ</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Coopération</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internationale</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Allemande</text>
+  </g>
+  
+  <!-- Partner 2 - CNIA -->
+  <g transform="translate(250, 120)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#228B22">CNIA</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Chambre Nationale</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">des Industries</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">d'Agriculture</text>
+  </g>
+  
+  <!-- Partner 3 - LCV -->
+  <g transform="translate(400, 120)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#DC143C">LCV</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Ligue des</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Consommateurs</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">de Vie</text>
+  </g>
+  
+  <!-- Partner 4 - AFS -->
+  <g transform="translate(550, 120)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9370DB">AFS</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Association</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">pour la</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Formation</text>
+  </g>
+  
+  <!-- Partner 5 - Ministère -->
+  <g transform="translate(100, 230)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B4513">MINISTÈRE</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">de l'Agriculture</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">et du</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Développement</text>
+  </g>
+  
+  <!-- Partner 6 - ONG International -->
+  <g transform="translate(250, 230)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF6347">ONG</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Organisation</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Non</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Gouvernementale</text>
+  </g>
+  
+  <!-- Partner 7 - Banque de Développement -->
+  <g transform="translate(400, 230)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4169E1">BAD</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Banque</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Africaine</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">de Développement</text>
+  </g>
+  
+  <!-- Partner 8 - Université -->
+  <g transform="translate(550, 230)">
+    <rect x="0" y="0" width="120" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFD700">UNIVERSITÉ</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">de Conakry</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Faculté</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">d'Agronomie</text>
+  </g>
+  
+  <!-- Partnership indicators -->
+  <g transform="translate(50, 350)">
+    <!-- Indicator 1 -->
+    <circle cx="0" cy="0" r="15" fill="#228B22"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">✓</text>
+    <text x="25" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Partenariats Stratégiques</text>
+  </g>
+  
+  <g transform="translate(300, 350)">
+    <!-- Indicator 2 -->
+    <circle cx="0" cy="0" r="15" fill="#4169E1"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">✓</text>
+    <text x="25" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Collaborations Internationales</text>
+  </g>
+  
+  <g transform="translate(600, 350)">
+    <!-- Indicator 3 -->
+    <circle cx="0" cy="0" r="15" fill="#FFD700"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000000">✓</text>
+    <text x="25" y="5" font-family="Arial, sans-serif" font-size="12" fill="#2F2F2F">Excellence Partagée</text>
+  </g>
+</svg>

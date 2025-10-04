@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="eventSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9370DB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tentGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F8FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="chandelierGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#eventSkyGradient)"/>
+  
+  <!-- Stars -->
+  <g fill="white" opacity="0.8">
+    <circle cx="200" cy="100" r="2"/>
+    <circle cx="400" cy="80" r="1.5"/>
+    <circle cx="600" cy="120" r="2.5"/>
+    <circle cx="800" cy="90" r="1.8"/>
+    <circle cx="1000" cy="110" r="2"/>
+    <circle cx="1200" cy="85" r="1.5"/>
+    <circle cx="1400" cy="105" r="2.2"/>
+    <circle cx="1600" cy="95" r="1.7"/>
+    <circle cx="1800" cy="115" r="2"/>
+  </g>
+  
+  <!-- Main tent -->
+  <g transform="translate(960, 400)">
+    <!-- Tent structure -->
+    <path d="M-300,300 L0,-100 L300,300 Z" fill="url(#tentGradient)" stroke="#D3D3D3" stroke-width="3"/>
+    
+    <!-- Tent poles -->
+    <line x1="-250" y1="300" x2="-250" y2="200" stroke="#8B4513" stroke-width="8"/>
+    <line x1="250" y1="300" x2="250" y2="200" stroke="#8B4513" stroke-width="8"/>
+    <line x1="0" y1="300" x2="0" y2="100" stroke="#8B4513" stroke-width="10"/>
+    
+    <!-- Tent entrance -->
+    <path d="M-80,300 L0,250 L80,300 Z" fill="url(#tentGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  </g>
+  
+  <!-- Elegant chandeliers -->
+  <g transform="translate(800, 300)">
+    <!-- Chandelier 1 -->
+    <g fill="url(#chandelierGradient)">
+      <!-- Main body -->
+      <circle cx="0" cy="0" r="15"/>
+      <!-- Arms -->
+      <rect x="-2" y="-15" width="4" height="30"/>
+      <rect x="-15" y="-2" width="30" height="4"/>
+      <!-- Candles -->
+      <rect x="-12" y="-15" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="9" y="-15" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="-2" y="-30" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="-2" y="10" width="3" height="20" fill="#FFFFFF"/>
+      <!-- Candle flames -->
+      <ellipse cx="-10.5" cy="-18" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="10.5" cy="-18" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="0" cy="-33" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="0" cy="7" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <g transform="translate(1120, 300)">
+    <!-- Chandelier 2 -->
+    <g fill="url(#chandelierGradient)">
+      <!-- Main body -->
+      <circle cx="0" cy="0" r="15"/>
+      <!-- Arms -->
+      <rect x="-2" y="-15" width="4" height="30"/>
+      <rect x="-15" y="-2" width="30" height="4"/>
+      <!-- Candles -->
+      <rect x="-12" y="-15" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="9" y="-15" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="-2" y="-30" width="3" height="20" fill="#FFFFFF"/>
+      <rect x="-2" y="10" width="3" height="20" fill="#FFFFFF"/>
+      <!-- Candle flames -->
+      <ellipse cx="-10.5" cy="-18" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="10.5" cy="-18" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="0" cy="-33" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+      <ellipse cx="0" cy="7" rx="2" ry="4" fill="#FFD700" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Elegant table setup -->
+  <g transform="translate(960, 700)">
+    <!-- Table -->
+    <rect x="-200" y="-20" width="400" height="20" fill="#8B4513" rx="10"/>
+    <rect x="-15" y="0" width="30" height="80" fill="#8B4513"/>
+    
+    <!-- Tablecloth -->
+    <rect x="-220" y="-40" width="440" height="40" fill="#F8F8FF" rx="5"/>
+    
+    <!-- Elegant centerpiece -->
+    <g transform="translate(0, -30)">
+      <!-- Vase -->
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#C0C0C0"/>
+      <rect x="-12" y="-15" width="24" height="15" fill="#C0C0C0" rx="2"/>
+      
+      <!-- Flowers -->
+      <g fill="#FF69B4">
+        <ellipse cx="-8" cy="-20" rx="3" ry="6" transform="rotate(-20)"/>
+        <ellipse cx="8" cy="-20" rx="3" ry="6" transform="rotate(20)"/>
+        <ellipse cx="0" cy="-25" rx="3" ry="6"/>
+      </g>
+      
+      <!-- Green leaves -->
+      <g fill="#228B22">
+        <ellipse cx="-5" cy="-15" rx="2" ry="8" transform="rotate(-30)"/>
+        <ellipse cx="5" cy="-15" rx="2" ry="8" transform="rotate(30)"/>
+      </g>
+    </g>
+    
+    <!-- Elegant plates -->
+    <g transform="translate(-150, -20)">
+      <circle cx="0" cy="0" r="25" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2"/>
+      <circle cx="0" cy="0" r="20" fill="#F8F8FF"/>
+    </g>
+    
+    <g transform="translate(150, -20)">
+      <circle cx="0" cy="0" r="25" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2"/>
+      <circle cx="0" cy="0" r="20" fill="#F8F8FF"/>
+    </g>
+    
+    <!-- Elegant glasses -->
+    <g transform="translate(-100, -15)">
+      <rect x="-3" y="-15" width="6" height="20" fill="#E6E6FA" stroke="#D3D3D3" stroke-width="1"/>
+      <rect x="-2" y="-10" width="4" height="15" fill="#F0F8FF"/>
+    </g>
+    
+    <g transform="translate(100, -15)">
+      <rect x="-3" y="-15" width="6" height="20" fill="#E6E6FA" stroke="#D3D3D3" stroke-width="1"/>
+      <rect x="-2" y="-10" width="4" height="15" fill="#F0F8FF"/>
+    </g>
+    
+    <!-- Elegant cutlery -->
+    <g transform="translate(-120, -10)">
+      <rect x="-1" y="-5" width="2" height="15" fill="#C0C0C0"/>
+      <rect x="-3" y="-5" width="6" height="2" fill="#C0C0C0"/>
+    </g>
+    
+    <g transform="translate(120, -10)">
+      <rect x="-1" y="-5" width="2" height="15" fill="#C0C0C0"/>
+      <rect x="-3" y="-5" width="6" height="2" fill="#C0C0C0"/>
+    </g>
+  </g>
+  
+  <!-- Elegant guests -->
+  <g transform="translate(750, 650)">
+    <!-- Guest 1 -->
+    <circle cx="0" cy="0" r="8" fill="#DEB887"/>
+    <rect x="-6" y="8" width="12" height="20" fill="#4169E1" rx="2"/>
+    <rect x="-5" y="28" width="5" height="8" fill="#000080"/>
+    <rect x="0" y="28" width="5" height="8" fill="#000080"/>
+  </g>
+  
+  <g transform="translate(1170, 650)">
+    <!-- Guest 2 -->
+    <circle cx="0" cy="0" r="8" fill="#DEB887"/>
+    <rect x="-6" y="8" width="12" height="20" fill="#9370DB" rx="2"/>
+    <rect x="-5" y="28" width="5" height="8" fill="#4B0082"/>
+    <rect x="0" y="28" width="5" height="8" fill="#4B0082"/>
+  </g>
+  
+  <!-- Elegant decorations -->
+  <g transform="translate(500, 500)">
+    <!-- Flower arrangement -->
+    <g fill="#FF69B4">
+      <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(-20)"/>
+      <ellipse cx="10" cy="-5" rx="8" ry="15" transform="rotate(20)"/>
+      <ellipse cx="-10" cy="-5" rx="8" ry="15" transform="rotate(-40)"/>
+    </g>
+    <!-- Vase -->
+    <ellipse cx="0" cy="10" rx="12" ry="15" fill="#F5F5DC"/>
+  </g>
+  
+  <g transform="translate(1420, 500)">
+    <!-- Another flower arrangement -->
+    <g fill="#FFB6C1">
+      <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(-20)"/>
+      <ellipse cx="10" cy="-5" rx="8" ry="15" transform="rotate(20)"/>
+      <ellipse cx="-10" cy="-5" rx="8" ry="15" transform="rotate(-40)"/>
+    </g>
+    <!-- Vase -->
+    <ellipse cx="0" cy="10" rx="12" ry="15" fill="#F5F5DC"/>
+  </g>
+  
+  <!-- Elegant lighting effects -->
+  <g opacity="0.3">
+    <circle cx="960" cy="300" r="200" fill="url(#lightGradient)"/>
+    <circle cx="800" cy="400" r="150" fill="url(#lightGradient)"/>
+    <circle cx="1120" cy="400" r="150" fill="url(#lightGradient)"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="950" width="1920" height="130" fill="#90EE90"/>
+  
+  <!-- Elegant path -->
+  <rect x="860" y="950" width="200" height="130" fill="#F5DEB3" opacity="0.7"/>
+</svg>

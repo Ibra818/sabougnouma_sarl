@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D3D3D3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F8FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="300" cy="150" rx="80" ry="30" fill="white" opacity="0.8"/>
+  <ellipse cx="350" cy="140" rx="60" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="320" cy="130" rx="70" ry="35" fill="white" opacity="0.8"/>
+  
+  <ellipse cx="800" cy="200" rx="100" ry="40" fill="white" opacity="0.7"/>
+  <ellipse cx="850" cy="190" rx="80" ry="35" fill="white" opacity="0.7"/>
+  <ellipse cx="820" cy="180" rx="90" ry="45" fill="white" opacity="0.7"/>
+  
+  <ellipse cx="1400" cy="120" rx="90" ry="35" fill="white" opacity="0.6"/>
+  <ellipse cx="1450" cy="110" rx="70" ry="30" fill="white" opacity="0.6"/>
+  <ellipse cx="1420" cy="100" rx="80" ry="40" fill="white" opacity="0.6"/>
+  
+  <!-- Main building -->
+  <rect x="400" y="300" width="800" height="780" fill="url(#buildingGradient)"/>
+  
+  <!-- Building windows grid -->
+  <g opacity="0.7">
+    <!-- Floor 1 -->
+    <rect x="450" y="350" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="350" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="350" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="350" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="350" width="120" height="80" fill="url(#glassGradient)"/>
+    
+    <!-- Floor 2 -->
+    <rect x="450" y="450" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="450" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="450" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="450" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="450" width="120" height="80" fill="url(#glassGradient)"/>
+    
+    <!-- Floor 3 -->
+    <rect x="450" y="550" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="550" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="550" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="550" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="550" width="120" height="80" fill="url(#glassGradient)"/>
+    
+    <!-- Floor 4 -->
+    <rect x="450" y="650" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="650" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="650" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="650" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="650" width="120" height="80" fill="url(#glassGradient)"/>
+    
+    <!-- Floor 5 -->
+    <rect x="450" y="750" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="750" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="750" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="750" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="750" width="120" height="80" fill="url(#glassGradient)"/>
+    
+    <!-- Floor 6 -->
+    <rect x="450" y="850" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="590" y="850" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="730" y="850" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="870" y="850" width="120" height="80" fill="url(#glassGradient)"/>
+    <rect x="1010" y="850" width="120" height="80" fill="url(#glassGradient)"/>
+  </g>
+  
+  <!-- Cleaning equipment on building -->
+  <g transform="translate(900, 200)">
+    <!-- Crane -->
+    <rect x="0" y="0" width="8" height="100" fill="#4169E1"/>
+    <rect x="-20" y="0" width="48" height="8" fill="#4169E1"/>
+    <rect x="-25" y="8" width="6" height="20" fill="#4169E1"/>
+    
+    <!-- Cleaning platform -->
+    <rect x="-30" y="28" width="40" height="15" fill="#FFD700" rx="3"/>
+    <circle cx="-10" cy="36" r="3" fill="#FF4500"/>
+    <circle cx="0" cy="36" r="3" fill="#FF4500"/>
+    <circle cx="10" cy="36" r="3" fill="#FF4500"/>
+  </g>
+  
+  <!-- Cleaning person on platform -->
+  <g transform="translate(900, 200)">
+    <!-- Person -->
+    <circle cx="-5" cy="32" r="4" fill="#DEB887"/>
+    <rect x="-7" y="36" width="14" height="12" fill="#4169E1" rx="2"/>
+    <rect x="-6" y="48" width="6" height="8" fill="#000080"/>
+    <rect x="0" y="48" width="6" height="8" fill="#000080"/>
+    <rect x="-3" y="60" width="3" height="6" fill="#8B4513"/>
+    <rect x="0" y="60" width="3" height="6" fill="#8B4513"/>
+    
+    <!-- Cleaning equipment -->
+    <rect x="-15" y="40" width="8" height="2" fill="#C0C0C0"/>
+    <rect x="-12" y="38" width="2" height="4" fill="#C0C0C0"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="1700" cy="150" r="80" fill="#FFD700" opacity="0.9"/>
+  <g fill="#FFD700" opacity="0.7">
+    <path d="M1650,50 L1655,45 L1650,40 L1655,45 Z"/>
+    <path d="M1700,50 L1705,45 L1700,40 L1695,45 Z"/>
+    <path d="M1750,50 L1755,45 L1750,40 L1745,45 Z"/>
+    <path d="M1800,100 L1805,95 L1800,90 L1795,95 Z"/>
+    <path d="M1800,150 L1805,145 L1800,140 L1795,145 Z"/>
+    <path d="M1800,200 L1805,195 L1800,190 L1795,195 Z"/>
+    <path d="M1750,250 L1755,245 L1750,240 L1745,245 Z"/>
+    <path d="M1700,250 L1705,245 L1700,240 L1695,245 Z"/>
+    <path d="M1650,250 L1655,245 L1650,240 L1645,245 Z"/>
+    <path d="M1600,200 L1605,195 L1600,190 L1595,195 Z"/>
+    <path d="M1600,150 L1605,145 L1600,140 L1595,145 Z"/>
+    <path d="M1600,100 L1605,95 L1600,90 L1595,95 Z"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#90EE90"/>
+  
+  <!-- Trees -->
+  <g transform="translate(100, 950)">
+    <rect x="0" y="30" width="8" height="20" fill="#8B4513"/>
+    <circle cx="4" cy="25" r="15" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(300, 940)">
+    <rect x="0" y="40" width="10" height="25" fill="#8B4513"/>
+    <circle cx="5" cy="30" r="18" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(1500, 960)">
+    <rect x="0" y="20" width="6" height="15" fill="#8B4513"/>
+    <circle cx="3" cy="15" r="12" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(1700, 950)">
+    <rect x="0" y="30" width="8" height="20" fill="#8B4513"/>
+    <circle cx="4" cy="25" r="15" fill="#228B22"/>
+  </g>
+</svg>

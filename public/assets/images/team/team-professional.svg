@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="teamSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#teamSkyGradient)"/>
+  
+  <!-- Professional team members -->
+  <g transform="translate(100, 200)">
+    <!-- Team member 1 - Manager -->
+    <circle cx="0" cy="0" r="25" fill="#DEB887"/>
+    <!-- Suit -->
+    <rect x="-15" y="25" width="30" height="40" fill="#000000" rx="3"/>
+    <rect x="-12" y="28" width="24" height="34" fill="#FFFFFF" rx="2"/>
+    <!-- Tie -->
+    <rect x="-3" y="28" width="6" height="25" fill="#FF0000"/>
+    <!-- Pants -->
+    <rect x="-10" y="65" width="10" height="20" fill="#000080"/>
+    <rect x="0" y="65" width="10" height="20" fill="#000080"/>
+    <!-- Shoes -->
+    <rect x="-8" y="85" width="6" height="5" fill="#000000"/>
+    <rect x="0" y="85" width="6" height="5" fill="#000000"/>
+    <!-- Name tag -->
+    <rect x="-12" y="15" width="24" height="8" fill="#FFD700"/>
+    <text x="0" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#000000">MANAGER</text>
+  </g>
+  
+  <g transform="translate(250, 200)">
+    <!-- Team member 2 - Cleaner -->
+    <circle cx="0" cy="0" r="25" fill="#DEB887"/>
+    <!-- Uniform -->
+    <rect x="-15" y="25" width="30" height="40" fill="#4169E1" rx="3"/>
+    <rect x="-12" y="28" width="24" height="34" fill="#87CEEB" rx="2"/>
+    <!-- Pants -->
+    <rect x="-10" y="65" width="10" height="20" fill="#000080"/>
+    <rect x="0" y="65" width="10" height="20" fill="#000080"/>
+    <!-- Shoes -->
+    <rect x="-8" y="85" width="6" height="5" fill="#000000"/>
+    <rect x="0" y="85" width="6" height="5" fill="#000000"/>
+    <!-- Cleaning equipment -->
+    <g transform="translate(30, 10)">
+      <rect x="0" y="0" width="8" height="20" fill="#C0C0C0"/>
+      <rect x="2" y="5" width="4" height="10" fill="#FFFFFF"/>
+    </g>
+    <!-- Name tag -->
+    <rect x="-12" y="15" width="24" height="8" fill="#FFD700"/>
+    <text x="0" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#000000">CLEAN</text>
+  </g>
+  
+  <g transform="translate(400, 200)">
+    <!-- Team member 3 - Chef -->
+    <circle cx="0" cy="0" r="25" fill="#DEB887"/>
+    <!-- Chef uniform -->
+    <rect x="-15" y="25" width="30" height="40" fill="#FFFFFF" rx="3"/>
+    <rect x="-12" y="28" width="24" height="34" fill="#F8F8FF" rx="2"/>
+    <!-- Chef hat -->
+    <rect x="-8" y="15" width="16" height="12" fill="#FFFFFF" rx="2"/>
+    <rect x="-6" y="10" width="12" height="5" fill="#FFFFFF" rx="1"/>
+    <!-- Pants -->
+    <rect x="-10" y="65" width="10" height="20" fill="#000080"/>
+    <rect x="0" y="65" width="10" height="20" fill="#000080"/>
+    <!-- Shoes -->
+    <rect x="-8" y="85" width="6" height="5" fill="#000000"/>
+    <rect x="0" y="85" width="6" height="5" fill="#000000"/>
+    <!-- Name tag -->
+    <rect x="-12" y="35" width="24" height="8" fill="#FFD700"/>
+    <text x="0" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#000000">CHEF</text>
+  </g>
+  
+  <g transform="translate(550, 200)">
+    <!-- Team member 4 - Farmer -->
+    <circle cx="0" cy="0" r="25" fill="#DEB887"/>
+    <!-- Work uniform -->
+    <rect x="-15" y="25" width="30" height="40" fill="#228B22" rx="3"/>
+    <rect x="-12" y="28" width="24" height="34" fill="#32CD32" rx="2"/>
+    <!-- Pants -->
+    <rect x="-10" y="65" width="10" height="20" fill="#006400"/>
+    <rect x="0" y="65" width="10" height="20" fill="#006400"/>
+    <!-- Shoes -->
+    <rect x="-8" y="85" width="6" height="5" fill="#000000"/>
+    <rect x="0" y="85" width="6" height="5" fill="#000000"/>
+    <!-- Agricultural tool -->
+    <g transform="translate(30, 10)">
+      <rect x="0" y="0" width="2" height="15" fill="#8B4513"/>
+      <rect x="-2" y="0" width="6" height="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Name tag -->
+    <rect x="-12" y="15" width="24" height="8" fill="#FFD700"/>
+    <text x="0" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#000000">AGRO</text>
+  </g>
+  
+  <g transform="translate(700, 200)">
+    <!-- Team member 5 - Trainer -->
+    <circle cx="0" cy="0" r="25" fill="#DEB887"/>
+    <!-- Professional suit -->
+    <rect x="-15" y="25" width="30" height="40" fill="#4B0082" rx="3"/>
+    <rect x="-12" y="28" width="24" height="34" fill="#9370DB" rx="2"/>
+    <!-- Pants -->
+    <rect x="-10" y="65" width="10" height="20" fill="#4B0082"/>
+    <rect x="0" y="65" width="10" height="20" fill="#4B0082"/>
+    <!-- Shoes -->
+    <rect x="-8" y="85" width="6" height="5" fill="#000000"/>
+    <rect x="0" y="85" width="6" height="5" fill="#000000"/>
+    <!-- Books -->
+    <g transform="translate(30, 5)">
+      <rect x="0" y="0" width="12" height="15" fill="#4169E1"/>
+      <rect x="2" y="2" width="8" height="11" fill="#6495ED"/>
+    </g>
+    <!-- Name tag -->
+    <rect x="-12" y="15" width="24" height="8" fill="#FFD700"/>
+    <text x="0" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#000000">TRAIN</text>
+  </g>
+  
+  <!-- Team banner -->
+  <g transform="translate(400, 100)">
+    <rect x="-200" y="-20" width="400" height="40" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2" rx="10"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4B0082">ÉQUIPE SABOU-GNOUMA</text>
+  </g>
+  
+  <!-- Team values -->
+  <g transform="translate(100, 350)">
+    <!-- Value 1 -->
+    <circle cx="0" cy="0" r="20" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#000000">EXCEL</text>
+  </g>
+  
+  <g transform="translate(200, 350)">
+    <!-- Value 2 -->
+    <circle cx="0" cy="0" r="20" fill="#228B22" stroke="#006400" stroke-width="2"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">QUAL</text>
+  </g>
+  
+  <g transform="translate(300, 350)">
+    <!-- Value 3 -->
+    <circle cx="0" cy="0" r="20" fill="#4169E1" stroke="#000080" stroke-width="2"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">PROF</text>
+  </g>
+  
+  <g transform="translate(400, 350)">
+    <!-- Value 4 -->
+    <circle cx="0" cy="0" r="20" fill="#DC143C" stroke="#8B0000" stroke-width="2"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">TEAM</text>
+  </g>
+  
+  <g transform="translate(500, 350)">
+    <!-- Value 5 -->
+    <circle cx="0" cy="0" r="20" fill="#9370DB" stroke="#4B0082" stroke-width="2"/>
+    <text x="0" y="3" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">INNO</text>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="500" width="800" height="100" fill="#90EE90"/>
+  
+  <!-- Professional pathway -->
+  <rect x="50" y="500" width="700" height="100" fill="#DEB887" opacity="0.8"/>
+  
+  <!-- Building in background -->
+  <g transform="translate(600, 400)">
+    <rect x="0" y="0" width="150" height="80" fill="#E6E6FA" rx="5"/>
+    <rect x="20" y="20" width="30" height="20" fill="#87CEEB" rx="3"/>
+    <rect x="60" y="20" width="30" height="20" fill="#87CEEB" rx="3"/>
+    <rect x="100" y="20" width="30" height="20" fill="#87CEEB" rx="3"/>
+  </g>
+</svg>

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D3D3D3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F8FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1200" height="800" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="200" cy="100" rx="60" ry="25"/>
+    <ellipse cx="230" cy="90" rx="45" ry="20"/>
+    <ellipse cx="220" cy="80" rx="55" ry="30"/>
+    
+    <ellipse cx="600" cy="120" rx="80" ry="35"/>
+    <ellipse cx="640" cy="110" rx="65" ry="30"/>
+    <ellipse cx="620" cy="100" rx="75" ry="40"/>
+    
+    <ellipse cx="1000" cy="90" rx="70" ry="30"/>
+    <ellipse cx="1030" cy="80" rx="55" ry="25"/>
+    <ellipse cx="1020" cy="70" rx="65" ry="35"/>
+  </g>
+  
+  <!-- Main Sabou-Gnouma building -->
+  <g transform="translate(300, 200)">
+    <!-- Building structure -->
+    <rect x="0" y="0" width="600" height="500" fill="url(#buildingGradient)" rx="15"/>
+    
+    <!-- Building entrance -->
+    <rect x="200" y="350" width="200" height="150" fill="#8B4513" rx="10"/>
+    <rect x="220" y="370" width="160" height="130" fill="#654321"/>
+    
+    <!-- Entrance doors -->
+    <rect x="240" y="380" width="60" height="120" fill="#4B0082"/>
+    <rect x="320" y="380" width="60" height="120" fill="#4B0082"/>
+    
+    <!-- Building windows -->
+    <g fill="url(#glassGradient)" opacity="0.8">
+      <!-- Floor 1 -->
+      <rect x="50" y="50" width="80" height="60" rx="8"/>
+      <rect x="150" y="50" width="80" height="60" rx="8"/>
+      <rect x="370" y="50" width="80" height="60" rx="8"/>
+      <rect x="470" y="50" width="80" height="60" rx="8"/>
+      
+      <!-- Floor 2 -->
+      <rect x="50" y="130" width="80" height="60" rx="8"/>
+      <rect x="150" y="130" width="80" height="60" rx="8"/>
+      <rect x="370" y="130" width="80" height="60" rx="8"/>
+      <rect x="470" y="130" width="80" height="60" rx="8"/>
+      
+      <!-- Floor 3 -->
+      <rect x="50" y="210" width="80" height="60" rx="8"/>
+      <rect x="150" y="210" width="80" height="60" rx="8"/>
+      <rect x="370" y="210" width="80" height="60" rx="8"/>
+      <rect x="470" y="210" width="80" height="60" rx="8"/>
+      
+      <!-- Floor 4 -->
+      <rect x="50" y="290" width="80" height="60" rx="8"/>
+      <rect x="150" y="290" width="80" height="60" rx="8"/>
+      <rect x="370" y="290" width="80" height="60" rx="8"/>
+      <rect x="470" y="290" width="80" height="60" rx="8"/>
+    </g>
+    
+    <!-- Sabou-Gnouma logo/emblem -->
+    <g transform="translate(300, 20)">
+      <circle cx="0" cy="0" r="30" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000">SG</text>
+    </g>
+    
+    <!-- Company name -->
+    <text x="300" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2F2F2F">SABOU-GNOUMA SARL</text>
+    <text x="300" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666666">Excellence au service de vos besoins</text>
+  </g>
+  
+  <!-- Professional flag -->
+  <g transform="translate(950, 150)">
+    <!-- Flag pole -->
+    <rect x="0" y="0" width="8" height="200" fill="#8B4513"/>
+    <!-- Flag -->
+    <rect x="8" y="0" width="120" height="80" fill="#4B0082"/>
+    <rect x="8" y="80" width="120" height="80" fill="#FFD700"/>
+    <rect x="8" y="160" width="120" height="80" fill="#228B22"/>
+  </g>
+  
+  <!-- Professional landscaping -->
+  <g transform="translate(200, 650)">
+    <!-- Trees -->
+    <g fill="#228B22">
+      <circle cx="0" cy="0" r="25"/>
+      <circle cx="100" cy="0" r="30"/>
+      <circle cx="200" cy="0" r="25"/>
+      <circle cx="300" cy="0" r="28"/>
+      <circle cx="400" cy="0" r="25"/>
+      <circle cx="500" cy="0" r="30"/>
+      <circle cx="600" cy="0" r="25"/>
+    </g>
+    <!-- Tree trunks -->
+    <g fill="#8B4513">
+      <rect x="-3" y="25" width="6" height="20"/>
+      <rect x="97" y="30" width="6" height="20"/>
+      <rect x="197" y="25" width="6" height="20"/>
+      <rect x="297" y="28" width="6" height="20"/>
+      <rect x="397" y="25" width="6" height="20"/>
+      <rect x="497" y="30" width="6" height="20"/>
+      <rect x="597" y="25" width="6" height="20"/>
+    </g>
+  </g>
+  
+  <!-- Professional parking area -->
+  <g transform="translate(100, 700)">
+    <rect x="0" y="0" width="1000" height="80" fill="#696969" opacity="0.7"/>
+    <!-- Parking lines -->
+    <g stroke="white" stroke-width="2" opacity="0.8">
+      <line x1="0" y1="20" x2="1000" y2="20"/>
+      <line x1="0" y1="40" x2="1000" y2="40"/>
+      <line x1="0" y1="60" x2="1000" y2="60"/>
+    </g>
+  </g>
+  
+  <!-- Professional vehicles -->
+  <g transform="translate(150, 720)">
+    <!-- Car 1 -->
+    <rect x="0" y="0" width="40" height="20" fill="#4169E1" rx="5"/>
+    <circle cx="8" cy="20" r="4" fill="#000000"/>
+    <circle cx="32" cy="20" r="4" fill="#000000"/>
+    <rect x="5" y="5" width="30" height="10" fill="#87CEEB" opacity="0.7"/>
+  </g>
+  
+  <g transform="translate(250, 720)">
+    <!-- Car 2 -->
+    <rect x="0" y="0" width="40" height="20" fill="#228B22" rx="5"/>
+    <circle cx="8" cy="20" r="4" fill="#000000"/>
+    <circle cx="32" cy="20" r="4" fill="#000000"/>
+    <rect x="5" y="5" width="30" height="10" fill="#87CEEB" opacity="0.7"/>
+  </g>
+  
+  <g transform="translate(350, 720)">
+    <!-- Car 3 -->
+    <rect x="0" y="0" width="40" height="20" fill="#DC143C" rx="5"/>
+    <circle cx="8" cy="20" r="4" fill="#000000"/>
+    <circle cx="32" cy="20" r="4" fill="#000000"/>
+    <rect x="5" y="5" width="30" height="10" fill="#87CEEB" opacity="0.7"/>
+  </g>
+  
+  <!-- Professional sign -->
+  <g transform="translate(500, 100)">
+    <rect x="0" y="0" width="200" height="80" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="3" rx="10"/>
+    <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4B0082">SABOU-GNOUMA SARL</text>
+    <text x="100" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Solutions Premium</text>
+    <text x="100" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666666">Depuis 2020</text>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="1100" cy="100" r="60" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Sun rays -->
+  <g fill="#FFD700" opacity="0.6">
+    <path d="M1050,30 L1055,25 L1050,20 L1055,25 Z"/>
+    <path d="M1100,30 L1105,25 L1100,20 L1095,25 Z"/>
+    <path d="M1150,30 L1155,25 L1150,20 L1145,25 Z"/>
+    <path d="M1180,60 L1185,55 L1180,50 L1175,55 Z"/>
+    <path d="M1180,100 L1185,95 L1180,90 L1175,95 Z"/>
+    <path d="M1180,140 L1185,135 L1180,130 L1175,135 Z"/>
+    <path d="M1150,170 L1155,165 L1150,160 L1145,165 Z"/>
+    <path d="M1100,170 L1105,165 L1100,160 L1095,165 Z"/>
+    <path d="M1050,170 L1055,165 L1050,160 L1045,165 Z"/>
+    <path d="M1020,140 L1025,135 L1020,130 L1015,135 Z"/>
+    <path d="M1020,100 L1025,95 L1020,90 L1015,95 Z"/>
+    <path d="M1020,60 L1025,55 L1020,50 L1015,55 Z"/>
+  </g>
+</svg>
